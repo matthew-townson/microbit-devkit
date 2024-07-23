@@ -1,4 +1,4 @@
-#include <Microbit.h>
+#include <MicroBit.h>
 
 MicroBit uBit;
 
@@ -8,6 +8,6 @@ int main()
     
     while(1)
     {
-        uBit.display.print("Hello World!");
+        uBit.display.scroll("Hello World!");
     }
 }
